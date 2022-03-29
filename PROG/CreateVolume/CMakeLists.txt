@@ -1,0 +1,12 @@
+cmake_minimum_required(VERSION 3.1)
+PROJECT(CreateVolume)
+FIND_PACKAGE(ITK)
+IF(ITK_FOUND)
+INCLUDE(${ITK_USE_FILE})
+ELSE(ITK_FOUND)
+MESSAGE(FATAL_ERROR
+"ITK not found. Please set ITK_DIR.")
+ENDIF(ITK_FOUND)
+ADD_EXECUTABLE(CreateVolume CreateVolume.cxx)
+TARGET_LINK_LIBRARIES(CreateVolume ${ITK_LIBRARIES})
+

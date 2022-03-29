@@ -1,0 +1,15 @@
+Value of the 22nd bit of a 32-bit quiet-NaN is 1TestQnanhibit.c produced following output:
+Change Dir: /data_no_backup/de713126/SCRIPTS/Hubmap/Hubmap_Docker/PROG/NiftyReg/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_6e2c9/fast && /usr/bin/make  -f CMakeFiles/cmTC_6e2c9.dir/build.make CMakeFiles/cmTC_6e2c9.dir/build
+make[1]: Entering directory '/data_no_backup/de713126/SCRIPTS/Hubmap/Hubmap_Docker/PROG/NiftyReg/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6e2c9.dir/TestQnanhibit.c.o
+/usr/bin/cc   -fopenmp    -o CMakeFiles/cmTC_6e2c9.dir/TestQnanhibit.c.o   -c /data_no_backup/de713126/SCRIPTS/Hubmap/Hubmap_Docker/PROG/NiftyReg/reg-io/nrrd/NrrdIO/CMake/TestQnanhibit.c
+Linking C executable cmTC_6e2c9
+/usr/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6e2c9.dir/link.txt --verbose=1
+/usr/bin/cc  -fopenmp     -rdynamic CMakeFiles/cmTC_6e2c9.dir/TestQnanhibit.c.o  -o cmTC_6e2c9 
+make[1]: Leaving directory '/data_no_backup/de713126/SCRIPTS/Hubmap/Hubmap_Docker/PROG/NiftyReg/build/CMakeFiles/CMakeTmp'
+
+-DTEEM_QNANHIBIT=1
+
+
