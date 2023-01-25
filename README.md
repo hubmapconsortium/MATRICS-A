@@ -12,6 +12,4 @@ Multiplexed Image Three-D Reconstruction and Integrated Cell Spatial -Analysis
 9. Use 3D Slicer (https://www.slicer.org) load AF and other volumes overlay on top of the AF volume to visualize all in 3D. 
 
 System used for running the code:
-Docker: Docker version 19.03.12, 
-Ubuntu: Ubuntu 18.04.6 LTS,
-NVIDIA Driver Version: 418.67 CUDA Version: 10.1.
+Docker version 19.03.12, Ubuntu 18.04.6 LTS, NVIDIA Driver Version: 418.67, CUDA Version: 10.1.
