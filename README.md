@@ -8,3 +8,5 @@ Multiplexed Image Three-D Reconstruction and Integrated Cell Spatial -Analysis
 5. Load docker container: nvidia-docker run --rm -it -v $YOUR_WORKING_DIRECTORY hubmap/gehc:skin
 6. Run shell script to segment all cells (CD3, CD4 etc.) and nuclei (DAPI) of DATA/region007 from docker prompt: ./MATRICS-A/SCRIPTS/Segmentation.sh   
 7. Run shell script to register all autofluorescence (AF) images and create 3D volume for AF images and respective biomarkers. 
+8. AF and other cell volumes will be created under individual folders (AF, CD4 etc.) as AF_vol.nii.gz, CD4(THelper_vol.nii.gz), CD8(TKiller_vol.nii.gz), FOXP3(TRegulator_vol.nii.gz), Blood vessels(CD31_vol.nii.gz), Macrophages (CD68_vol_Proc.nii.gz), DDB2(DDB2_vol.nii.gz), KI67 (KI67_vol.nii.gz) 
+9. Use 3D Slicer (https://www.slicer.org) load AF and other volumes overlay one tp of the other to visualize all in 3D. 
