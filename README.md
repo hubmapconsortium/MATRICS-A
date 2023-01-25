@@ -10,3 +10,8 @@ Multiplexed Image Three-D Reconstruction and Integrated Cell Spatial -Analysis
 7. Run shell script to register all autofluorescence (AF) images and create 3D volume for AF images and respective biomarkers. 
 8. AF and other cell volumes will be created under individual folders (AF, CD4 etc.) as AF_vol.nii.gz, CD4(THelper_vol.nii.gz), CD8(TKiller_vol.nii.gz), FOXP3(TRegulator_vol.nii.gz), Blood vessels(CD31_vol.nii.gz), Macrophages (CD68_vol_Proc.nii.gz), DDB2(DDB2_vol.nii.gz), KI67 (KI67_vol.nii.gz) 
 9. Use 3D Slicer (https://www.slicer.org) load AF and other volumes overlay on top of the AF volume to visualize all in 3D. 
+
+System used for running the code
+Docker: Docker version 19.03.12
+Ubuntu: Ubuntu 18.04.6 LTS
+NVIDIA Driver Version: 418.67 CUDA Version: 10.1
