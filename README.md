@@ -13,4 +13,3 @@ Multiplexed Image Three-D Reconstruction and Integrated Cell Spatial -Analysis
 
 System used for running the code:
 Docker version 19.03.12, Ubuntu 18.04.6 LTS, NVIDIA Driver Version: 418.67, CUDA Version: 10.1.
-This code is dependent on docker requirement and potentially should run in Windows system with docker installation.
