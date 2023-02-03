@@ -1,3 +1,14 @@
+# Companion Website for "Human Digital Twin: Automated Cell Type Distance Computation and 3D Atlas Construction in Multiplexed Skin Biopsies"
+Soumya Ghose<sup>1,2</sup>, Yingnan Ju<sup>1,3</sup>, Elizabeth McDonough<sup>2</sup>,Jonhan Ho<sup>4</sup>, Arivarasan Karunamurthy<sup>4</sup>, Chrystal Chadwick<sup>2</sup>, Sanghee Cho<sup>2</sup>, Rachel Rose<sup>2</sup>, Alex Corwin<sup>2</sup>, Eric Williams<sup>2</sup>, Christine Surrette<sup>2</sup>, Jessica Martinez<sup>2</sup>, Anup Sood<sup>2</sup>, Yousef Al-Kofahi<sup>2</sup>, Louis Falo<sup>4</sup>, Katy Börner<sup>3,5</sup>, Fiona Ginty<sup>2,5</sup>
+
+<sup>1</sup>Joint first-authors; <sup>5</sup>Joint corresponding authors <br>
+<sup>2</sup>GE Research Center; <sup>3</sup>Indiana University; <sup>4</sup>University of Pittsburgh
+
+[Link to preprint on bioRxiv](https://www.biorxiv.org/content/10.1101/2022.03.30.486438v1)<br> 
+[VCCF visualization for skin in 3D](https://github.com/hubmapconsortium/vccf-visualization-2022)<br>
+[Link to VCCF code on GitHub](https://github.com/hubmapconsortium/vccf-visualization-2022)<br>
+[Link to Data Collection on HuBMAP Portal](https://portal.hubmapconsortium.org/browse/collection/34b068d4a926f77fd98b3d968b6c172f)
+
 # MATRICS-A
 Multiplexed Image Three-D Reconstruction and Integrated Cell Spatial -Analysis
 1. Create folder $YOUR_WORKING_DIRECTORY 
