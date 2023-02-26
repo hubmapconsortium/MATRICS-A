@@ -15,7 +15,7 @@ Multiplexed Image Three-D Reconstruction and Integrated Cell Spatial -Analysis
 2. Pull docker container: docker pull hubmap/gehc:skin from $YOUR_WORKING_DIRECTORY
 3. Please download data from: https://zenodo.org/record/7565670#.Y9EoSS-B2-p 
    and create folder $YOUR_WORKING_DIRECTORY/DATA/region007. Extract all zipped folders (AF, AE, CD3 etc.) under DATA/region007
-4. Clone repository from hubmap github: git clone https://github.com/hubmapconsortium/MATRICS-A.git   
+4. Clone repository from [MATRICS-A](https://github.com/hubmapconsortium/MATRICS-A.git)   
 5. Load docker container: nvidia-docker run --rm -it -v $YOUR_WORKING_DIRECTORY hubmap/gehc:skin
 6. Run shell script to segment all cells (CD3, CD4 etc.) and nuclei (DAPI) of DATA/region007 from docker prompt: ./MATRICS-A/SCRIPTS/Segmentation.sh. This script segments DAPI (nuclei segmentation), use Gaussian mixture model to assign probablistic segmentation of cell types and functional biomarkers and combines probabilities for cell classification.   
 7. Run shell script to register all autofluorescence (AF) images and create 3D volume for AF images and respective cell types:./MATRICS-A/SCRIPTS/Registration.sh. This script automatically registers all 2D AF images of region 7 to a pre-selected 2D AF image to create 3D reconstructed AF image volume. The transformation maps post registration are automatically applied to cell types and functional biomarkers to create 3D reconstructed volumes of individual cell-type (i.e., epithelial, immune) and DNA damage/repair and proliferation markers (i.e., p53, DDB2, Ki67). 
